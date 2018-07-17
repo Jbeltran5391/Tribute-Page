@@ -1,0 +1,46 @@
+.header{
+	font-size:100px;
+	font-weight:900px;
+	margin: auto;
+}
+p{
+	line-height: 25px;
+	margin:auto;
+	width: 50%;
+	background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+	font-family: "sans-serif",Times,arial;
+	font-style: oblique;
+	font-weight: bold;
+	margin-top: 0px;
+}
+h1{
+	margin-left: 500px;
+	margin-top:10px;
+	margin-bottom: 0px;
+	width: 28%;
+	height: 80px;
+	padding-top: 20px;
+    background-color: #98FB98;
+    color: white;
+    font-family: "sans-serif";
+}
+img.a{
+	margin: 0px; 
+	width:300px;
+	animation-name: life-logo;
+	animation-duration: 3s;
+}
+@keyframes a {
+	0%{
+		left:0px;
+	}
+	50%{
+		left:75px;
+	}
+	100%{
+		left:0px;
+	}
+}
+body{
+	background-image: url("https://s3.amazonaws.com/media.cloversites.com/66/663f8e9e-b572-40b8-ae24-2318e71a8abc/backgrounds/1e202f28-b72c-4346-9dab-8b439b7cc555.jpg");
+}
